@@ -10,6 +10,7 @@ set(Sources
     parity_outlier.cpp
     sum_of_numbers.cpp
     equal_sides_of_an_array.cpp
+    hanoi_record.cpp
 )
 
 add_executable(${PROJECT_NAME} ${Sources})
@@ -20,6 +21,7 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
                         FindTheParityOutlier
                         SumOfNumbers
                         EqualSidesOfAnArray
+                        HanoiRecord
                     )
 
 add_test(
