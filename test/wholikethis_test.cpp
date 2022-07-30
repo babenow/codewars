@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <iostream>
 #include <sstream>
-#include <wholikethis.hpp>
+#include <CodeWars/WhoLikeThis.hpp>
 
 using namespace std;
 

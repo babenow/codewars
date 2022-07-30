@@ -6,9 +6,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 enable_testing()
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
 add_subdirectory(external/googletest)
 
 add_subdirectory(wholikethis)
+add_subdirectory(parity_outlier)
 
 
 add_subdirectory(test)
