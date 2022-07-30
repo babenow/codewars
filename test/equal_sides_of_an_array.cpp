@@ -35,8 +35,6 @@ TEST(EqualSidesOfAnArrayTests, GetNumbersPairTest) {
 
 TEST(EqualSidesOfAnArrayTests, FindEvenIndexTest) {
   for (auto &tc : testCases) {
-    cout << "FIND INDEX: " << find_even_index(tc.numbers)
-         << "; Expected: " << tc.expected << endl;
     EXPECT_EQ(find_even_index(tc.numbers), tc.expected);
   }
 }
