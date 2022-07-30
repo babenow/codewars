@@ -8,6 +8,7 @@ enable_testing()
 set(Sources 
     wholikethis_test.cpp
     parity_outlier.cpp
+    sum_of_numbers.cpp
 )
 
 add_executable(${PROJECT_NAME} ${Sources})
@@ -16,6 +17,7 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
                         gtest_main 
                         wholikethis 
                         FindTheParityOutlier
+                        SumOfNumbers
                     )
 
 add_test(

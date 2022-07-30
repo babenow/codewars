@@ -12,6 +12,7 @@ add_subdirectory(external/googletest)
 
 add_subdirectory(wholikethis)
 add_subdirectory(parity_outlier)
+add_subdirectory(sum_of_numbers)
 
 
 add_subdirectory(test)
