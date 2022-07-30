@@ -1,3 +1,5 @@
+#ifndef CODEWARS_TESTS_EQUALSIDESOFANARRAY_CPP_
+#define CODEWARS_TESTS_EQUALSIDESOFANARRAY_CPP_
 #include <CodeWars/EqualSidesOfAnArray.hpp>
 #include <gtest/gtest.h>
 #include <iostream>
@@ -38,3 +40,5 @@ TEST(EqualSidesOfAnArrayTests, FindEvenIndexTest) {
     EXPECT_EQ(find_even_index(tc.numbers), tc.expected);
   }
 }
+
+#endif // CODEWARS_TESTS_EQUALSIDESOFANARRAY_CPP_
