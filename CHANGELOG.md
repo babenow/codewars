@@ -1,4 +1,5 @@
 # Лог решений
+  - [x] 31.07.2022: [Ханойские Башни](hanoi_record/README.md)
   - [x] 31.07.2022: Bugfixes (delete garbares cout in tests)
   - [x] 31.07.2022: [Equal Sides Of An Array
 ](equal_sides_of_an_array/README.md)  
