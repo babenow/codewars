@@ -1,4 +1,4 @@
-#include "wholikethis.hpp"
+#include <CodeWars/WhoLikeThis.hpp>
 
 std::string likes(const std::vector<std::string> &names) {
   std::string result = "no one likes this";
