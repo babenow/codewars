@@ -1,14 +1,12 @@
-#include <iostream>
-#include <string>
-#include <vector>
+#include "wholikethis.hpp"
 
 std::string likes(const std::vector<std::string> &names) {
-  std::string result = "no one like this";
+  std::string result = "no one likes this";
 
   if (names.size() > 0) {
     size_t len = names.size();
     if (len < 2) {
-      result = names[0] + " like this";
+      result = names[0] + " likes this";
     } else if (len == 2) {
       result = names[0] + " and " + names[1] + " like this";
     } else if (len == 3) {
@@ -20,10 +18,4 @@ std::string likes(const std::vector<std::string> &names) {
     }
   }
   return result;
-}
-
-int main() {
-  std::vector<std::string> names = {"Maks", "Julia", "Father", "Brother"};
-  std::cout << likes(names) << std::endl;
-  return EXIT_SUCCESS;
 }
