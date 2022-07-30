@@ -7,7 +7,6 @@ std::string likes(const std::vector<std::string> &names) {
 
   if (names.size() > 0) {
     size_t len = names.size();
-    std::cout << len << std::endl;
     if (len < 2) {
       result = names[0] + " like this";
     } else if (len == 2) {
