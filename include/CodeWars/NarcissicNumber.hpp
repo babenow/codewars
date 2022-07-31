@@ -1,0 +1,6 @@
+#ifndef CODEWARS_NARCISSICNUMBER_HPP_
+#define CODEWARS_NARCISSICNUMBER_HPP_
+
+bool narcissistic(int value);
+
+#endif // CODEWARS_NARCISSICNUMBER_HPP_
