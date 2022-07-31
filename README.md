@@ -9,6 +9,7 @@
 
 #### ЗАДАЧИ
 
+- [x] [Нарциссические числа](narcissic_numbers/README.md)
 - [x] [Consecutive Strings](consecutive_strings/README.md)
 - [x] [Find The Odd Int](find_the_odd_int/README.md)
 - [x] [Ханойские башни](hanoi_record/README.md)
