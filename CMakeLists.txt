@@ -15,6 +15,7 @@ add_subdirectory(parity_outlier)
 add_subdirectory(sum_of_numbers)
 add_subdirectory(equal_sides_of_an_array)
 add_subdirectory(hanoi_record)
+add_subdirectory(find_the_odd_int)
 
 
 add_subdirectory(test)
