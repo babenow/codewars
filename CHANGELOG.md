@@ -1,5 +1,7 @@
 [В начало](README.md)
+
 # Лог решений
+  - [x] 01.08.2022: [Нарциссические числа](narcissic_numbers/README.md)
   - [x] 31.07.2022: [Consecutive Strings](consecutive_strings/README.md)
   - [x] 31.07.2022: [Find The odd int](find_the_odd_int/README.md)
   - [x] 31.07.2022: [Ханойские Башни](hanoi_record/README.md)
