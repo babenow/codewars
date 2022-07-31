@@ -1,3 +1,4 @@
+![CodeWars](https://www.codewars.com/users/babenoff/badges/large?theme=light "CodeWars Badge")
 # Репозиторий решения задач с CodeWars
 
 Использование языка С++ и CMake. Тестирование с помощью googletest
