@@ -21,10 +21,10 @@
 
 #### ИНЫЕ СПОСОБЫ РЕШЕНИЯ ДАННОЙ ЗАДАЧИ
 
-**CodeWars: [mouloud](https://codewars.com/users/mouloud)**
-**CodeWars: [moke_bupt](https://codewars.com/users/moke_bupt)**
-**CodeWars: [Satix](https://codewars.com/users/Satix)**
-**CodeWars: [Acril0](https://codewars.com/users/Acril0)**
+**CodeWars: [mouloud](https://codewars.com/users/mouloud)**  
+**CodeWars: [moke_bupt](https://codewars.com/users/moke_bupt)**  
+**CodeWars: [Satix](https://codewars.com/users/Satix)**  
+**CodeWars: [Acril0](https://codewars.com/users/Acril0)**  
 
 ```c++
 #include <cmath>
@@ -43,7 +43,7 @@ bool narcissistic( int value ){
   return sum == value;
 }
 ```
-**CodeWars: [Gena2018115rus](https://codewars.com/users/Gena2018115rus)**
+**CodeWars: [Gena2018115rus](https://codewars.com/users/Gena2018115rus)**  
 ```c++
 #include <numeric>
 #include <cmath>
