@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(CMAKE_CXX_STANDARD 17)
 set(PROJECT_NAME_TEST MorseCodeTests)
 project(MorseCode)
 
@@ -22,4 +21,4 @@ add_test(
     COMMAND ${PROJECT_NAME_TEST}
 )
 
-set_target_properties(${PRJECT_NAME_TEST} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
+set_target_properties(${PROJECT_NAME_TEST} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)

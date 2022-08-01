@@ -5,9 +5,9 @@
 #include <string>
 #include <unordered_map>
 
-typedef std::unordered_map<std::string, char> MorseDict;
+typedef std::map<std::string, char> MorseDict;
 
-MorseDict MORSE_CODE = {
+static MorseDict MORSE_CODE{
     {".-", 'A'},     {"-...", 'B'},   {"-.-.", 'C'},   {"-..", 'D'},
     {".", 'E'},      {"..-.", 'F'},   {"--.", 'G'},    {"....", 'H'},
     {"..", 'I'},     {".---", 'J'},   {"-.-", 'K'},    {".-..", 'L'},
@@ -20,6 +20,6 @@ MorseDict MORSE_CODE = {
     {".-.-.-", '.'}, {"--..--", ','}, {"---...", ':'}, {"..--..", '?'},
     {"-...-", '-'},  {"-..-.", '/'}};
 
-std::string decodeMorse(std::string morseCode);
+std::string decodeMorse(std::string mc);
 
 #endif // CODEWARS_MORSECODE_HPP_
