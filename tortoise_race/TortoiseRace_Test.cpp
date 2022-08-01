@@ -15,7 +15,7 @@ std::vector<TortoiseRace_TestCase> testCases = {
 };
 
 TEST(TortoiseRaseTests, race_test) {
-    for(auto &tc : testCases) {
-        EXPECT_EQ(Tortoise::race(tc.v1, tc.v2, tc.g), tc.expected);
-    }
+  for (auto &tc : testCases) {
+    EXPECT_EQ(Tortoise::race(tc.v1, tc.v2, tc.g), tc.expected);
+  }
 }

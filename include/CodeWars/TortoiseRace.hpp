@@ -7,8 +7,7 @@ typedef std::vector<int> RaceVec;
 
 class Tortoise {
 public:
-static RaceVec race(int v1, int v2, int g);
+  static RaceVec race(int v1, int v2, int g);
 };
-
 
 #endif // CODEWARS_TORTOICERACE_HPP_
