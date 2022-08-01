@@ -18,6 +18,7 @@ add_subdirectory(hanoi_record)
 add_subdirectory(find_the_odd_int)
 add_subdirectory(consecutive_strings)
 add_subdirectory(narcissic_numbers)
+add_subdirectory(tortoise_race)
 
 
 add_subdirectory(test)
