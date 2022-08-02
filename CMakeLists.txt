@@ -22,6 +22,7 @@ add_subdirectory(tortoise_race)
 add_subdirectory(morse_code)
 add_subdirectory(counting_duplicates)
 add_subdirectory(take_ten_minutes_walk)
+add_subdirectory(multiplication_table)
 
 
 add_subdirectory(test)
