@@ -1,6 +1,7 @@
 [В начало](README.md)
 
 # Лог решений
+  - [x] 02.08.2022: [Поисе повторяющихся символов](counting_duplicates/README.md)
   - [x] 02.08.2022: [Раскодирование морзе](morse_code/README.md)
   - [x] 01.08.2022: [Гонки черепах](tortoise_race/README.md)
   - [x] 01.08.2022: [Нарциссические числа](narcissic_numbers/README.md)

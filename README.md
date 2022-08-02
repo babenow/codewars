@@ -9,6 +9,7 @@
 
 #### ЗАДАЧИ
 
+- [x] [Поиск повторных символов](counting_duplicates/README.md)
 - [x] [Раскодирование морзе](morse_code/README.md)
 - [x] [Гонки Черепах](tortoise_race/README.md)
 - [x] [Нарциссические числа](narcissic_numbers/README.md)
