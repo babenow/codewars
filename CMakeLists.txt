@@ -20,6 +20,7 @@ add_subdirectory(consecutive_strings)
 add_subdirectory(narcissic_numbers)
 add_subdirectory(tortoise_race)
 add_subdirectory(morse_code)
+add_subdirectory(counting_duplicates)
 
 
 add_subdirectory(test)
