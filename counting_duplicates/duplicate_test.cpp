@@ -1,9 +1,10 @@
 #include <CodeWars/CountingDuplicates.hpp>
 #include <gtest/gtest.h>
+#include <string>
 #include <vector>
 
 struct duplicate_test_case {
-  char in;
+  std::string in;
   size_t expected;
 };
 
@@ -19,6 +20,6 @@ std::vector<duplicate_test_case> testCases = {
 
 TEST(CountingDuplicateTests, duplicatesCount_test) {
   for (auto &tc : testCases) {
-    EXPECT_EQ(duplicateCount(tc.in), tc.expected);
+    EXPECT_EQ(duplicateCount(tc.in.c_str()), tc.expected);
   }
 }
