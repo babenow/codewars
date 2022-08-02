@@ -1,6 +1,7 @@
 [В начало](README.md)
 
 # Лог решений
+  - [x] 02.08.2022: [Таблица умножения](multiplication_table/README.md)
   - [x] 02.08.2022: [Десятиминутная прогулка](take_ten_minutes_walk/README.md)
   - [x] 02.08.2022: [Поисе повторяющихся символов](counting_duplicates/README.md)
   - [x] 02.08.2022: [Раскодирование морзе](morse_code/README.md)
