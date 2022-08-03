@@ -37,3 +37,41 @@
 
     Не все пути можно сделать проще. Путь ["СЕВЕР", "ЗАПАД", "ЮГ", "ВОСТОК"] не сводим. «СЕВЕР» и «ЗАПАД», «ЗАПАД» и «ЮГ», «ЮГ» и «ВОСТОК» не являются прямо противоположными друг другу и не могут стать таковыми. Следовательно, путь результата сам по себе: ["СЕВЕР", "ЗАПАД", "ЮГ", "ВОСТОК"].
     если вы хотите перевести, пожалуйста, спросите, прежде чем переводить.
+
+#### Иные решения данной задачи
+
+**Codewars: [Rauta](https://www.codewars.com/users/Rauta)**
+
+```c++
+#include <string>
+#include <vector>
+#include <unordered_map>
+
+class DirReduction
+{
+public:
+    static std::vector<std::string> dirReduc(const std::vector<std::string> &arr);
+    static const std::unordered_map<std::string, std::string> oppositeWays;
+};
+
+const std::unordered_map<std::string, std::string> DirReduction::oppositeWays {
+    {"EAST", "WEST"},
+    {"WEST", "EAST"},
+    {"NORTH", "SOUTH"},
+    {"SOUTH", "NORTH"},
+};
+
+
+std::vector<std::string> DirReduction::dirReduc(const std::vector<std::string> &arr) {
+    std::vector<std::string> result;
+    for (const auto &way : arr) {
+        if (result.empty() || result.back() != oppositeWays.at(way)) {
+            result.push_back(way);
+        }
+        else {
+            result.pop_back();
+        }
+    }
+    return result;
+}
+```
