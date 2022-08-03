@@ -9,6 +9,7 @@
 
 #### ЗАДАЧИ
 
+- [x] [Сокращение направления](direction_reduction/README.md)
 - [x] [Таблица умножения](multiplication_table/README.md)
 - [x] [Десятиминутная прогулка](take_ten_minutes_walk/README.md)
 - [x] [Поиск повторных символов](counting_duplicates/README.md)
