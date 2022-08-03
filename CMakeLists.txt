@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(CodeWars)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 
 enable_testing()
 
@@ -23,6 +23,7 @@ add_subdirectory(morse_code)
 add_subdirectory(counting_duplicates)
 add_subdirectory(take_ten_minutes_walk)
 add_subdirectory(multiplication_table)
+add_subdirectory(direction_reduction)
 
 
 add_subdirectory(test)
