@@ -24,6 +24,6 @@ add_subdirectory(counting_duplicates)
 add_subdirectory(take_ten_minutes_walk)
 add_subdirectory(multiplication_table)
 add_subdirectory(direction_reduction)
-
+add_subdirectory(backspaces_in_string)
 
 add_subdirectory(test)
