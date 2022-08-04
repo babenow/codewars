@@ -32,4 +32,8 @@ std::string highestScoringWord(const std::string &str) {
     }
   }
   return higest.first;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/higest_scoring_word
