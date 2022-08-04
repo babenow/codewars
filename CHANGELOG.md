@@ -1,6 +1,8 @@
 [В начало](README.md)
 
 # Лог решений
+  - [x] 04.08.2022: [Слово с наибольшим количеством очков](higest_scoring_word/README.md)
+  - [x] 04.08.2022: [Очистка строки (имитация backspace)](backspaces_in_string/README.md)
   - [x] 04.08.2022: [Сокращение направления](direction_reduction/README.md)
   - [x] 02.08.2022: [Таблица умножения](multiplication_table/README.md)
   - [x] 02.08.2022: [Десятиминутная прогулка](take_ten_minutes_walk/README.md)

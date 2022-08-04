@@ -9,6 +9,8 @@
 
 #### ЗАДАЧИ
 
+- [x] [Слово с наибошим количеством очков](higest_scoring_word/README.md)
+- [x] [Имитация пробелов (очистка строки)](backspaces_in_string/README.md)
 - [x] [Сокращение направления](direction_reduction/README.md)
 - [x] [Таблица умножения](multiplication_table/README.md)
 - [x] [Десятиминутная прогулка](take_ten_minutes_walk/README.md)
